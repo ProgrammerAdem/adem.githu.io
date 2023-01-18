@@ -94,7 +94,7 @@ def nameRoute():
             disorder = 'Normal'
         elif(res == 4):
             disorder = 'Stress'
-        return jsonify({'name':disorder})
+        return jsonify({'name':'welcome'})
 
 
 
